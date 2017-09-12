@@ -245,7 +245,7 @@ EPD215::EPD215( uint32_t cs, uint32_t dc, uint32_t rs, uint32_t bs, int32_t d0, 
   // landscape mode on kicad-teensy-epaper badge
   //_rotation = 1;
   // portait mode on kicad-teensy-epaper badge
-  _rotation = 2;
+  //_rotation = 2;
 }
 
 void EPD215::softwareSpi( uint8_t data ) {
